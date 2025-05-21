@@ -53,7 +53,8 @@
     "format": "prettier .",
     "prepare": "npm run build",
     "test": "vitest",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "update-version": "npm run build && npm publish"
   },
   "dependencies": {
     "@rbardini/html": "^1.0.0",
