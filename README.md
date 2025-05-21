@@ -17,12 +17,12 @@ Inspired by [jsonresume-theme-flat](https://github.com/erming/jsonresume-theme-f
 - 📦 ESM and CommonJS builds
 - 🤖 TypeScript typings
 
-[View demo →](https://jsonresume-theme-even.rbrd.in)
+[View demo →](https://crewshin.github.io/resume/index.html)
 
 ## Installation
 
 ```console
-npm install jsonresume-theme-even
+npm install jsonresume-theme-crewshin
 ```
 
 ## Usage
