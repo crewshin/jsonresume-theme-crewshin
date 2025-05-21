@@ -17,7 +17,9 @@ Inspired by [jsonresume-theme-flat](https://github.com/erming/jsonresume-theme-f
 - 📦 ESM and CommonJS builds
 - 🤖 TypeScript typings
 
-[View demo →](https://crewshin.github.io/resume/index.html)
+[View live demo →](https://crewshin.github.io/resume/index.html)
+
+![Image](screenshot.png)
 
 ## Installation
 
