@@ -20,7 +20,9 @@ export default function Header(basics = {}) {
   return html`
     <header class="masthead">
       ${image && html`<img src="${image}" alt="" />`}
+
       <div>${name && html`<h1>${name}</h1>`} ${label && html`<h2>${label}</h2>`}</div>
+
       ${summary && html`<article>${markdown(summary)}</article>`}
       <ul class="icon-list">
         ${location?.city &&
@@ -52,7 +54,6 @@ export default function Header(basics = {}) {
             </li>
           `,
         )}
-        <li>Test</li>
       </ul>
     </header>
   `
