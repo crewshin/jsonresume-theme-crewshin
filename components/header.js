@@ -24,6 +24,7 @@ export default function Header(basics = {}) {
       <div>${name && html`<h1>${name}</h1>`} ${label && html`<h2>${label}</h2>`}</div>
 
       ${summary && html`<article>${markdown(summary)}</article>`}
+
       <ul class="icon-list">
         ${location?.city &&
         html`
