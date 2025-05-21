@@ -1,7 +1,10 @@
 {
   "arrowParens": "avoid",
-  "plugins": ["prettier-plugin-organize-imports", "prettier-plugin-packagejson"],
+  "plugins": [
+    "prettier-plugin-organize-imports",
+    "prettier-plugin-packagejson"
+  ],
   "printWidth": 120,
   "semi": false,
-  "singleQuote": true
+  "singleQuote": false
 }
