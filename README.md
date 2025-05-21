@@ -34,8 +34,8 @@ npx resume export resume.html
 [Resumed](https://github.com/rbardini/resumed) requires you to install the theme, since it does not come with any by default. It will then automatically load and use _Even_ when rendering a resume:
 
 ```console
-npm install resumed jsonresume-theme-even
-npx resumed render --theme jsonresume-theme-even
+npm install resumed jsonresume-theme-crewshin
+npx resumed render --theme jsonresume-theme-crewshin
 ```
 
 ### Standalone usage
@@ -43,7 +43,7 @@ npx resumed render --theme jsonresume-theme-even
 _Even_ comes with a barebones CLI that reads resumes from `stdin` and outputs HTML to `stdout`. This allows usage without any resume builder tools:
 
 ```console
-npx jsonresume-theme-even < resume.json > resume.html
+npx jsonresume-theme-crewshin < resume.json > resume.html
 ```
 
 ## Options
